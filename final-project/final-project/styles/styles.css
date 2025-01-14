@@ -1,0 +1,221 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a:hover {
+    background-color: royalblue;
+    cursor: pointer;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-right: -240px;
+}
+
+.auth-buttons a {
+    color: white;
+    text-decoration: none;
+    margin-left: 16px;
+    padding: 8px 16px;
+    border: 1px solid white;
+    border-radius: 3px;
+    align-items: end;
+}
+
+.auth-buttons a:hover {
+    color: wheat;
+    border: 2px solid red;
+}
+
+.main-content {
+    text-align: center;
+    padding: 20px 10px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.main-content h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.main-content p {
+    font-size: 18px;
+    color: #666;
+}
+
+.logo a {
+    padding: 10px;
+}
+
+.main {
+    align-items: start;
+}
+
+.Search {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 300px;
+}
+
+footer {
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.info-section, .footer-image {
+    flex: 1;
+}
+
+.gta, .footer-image img {
+    max-width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.gta:hover, .footer-image img:hover {
+    transform: scale(1.05);
+}
+
+.footer-image img {
+    max-width: 70%;
+    height: 400px;
+}
+
+.Gm2 {
+    max-width: 90%;
+    height: 400px;
+}
+
+@media (max-width: 986px) {
+    .logo {
+        margin-left: 5px;
+        font-size: 15px;
+    }
+
+    .auth-buttons {
+        margin-left: 20px;
+    }
+
+    #l1 {
+        font-size: 15px;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    .auth-buttons {
+        font-size: 15px;
+    }
+
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 850px) {
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .auth-buttons {
+        display: flex;
+        margin-left: 120px;
+    }
+
+    .logo {
+        margin-right: 12px;
+    }
+
+    .Game {
+        margin-left: 20px;
+        width: 350px;
+        height: 500px;
+    }
+
+    .footer-content {
+        text-align: center;
+    }
+
+    .Search {
+        align-items: center;
+    }
+
+    #bars {
+        display: flex;
+    }
+}
+
+@media (max-width: 800px) {
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .auth-buttons {
+        display: flex;
+        margin-left: 120px;
+    }
+
+    .logo {
+        margin-right: 12px;
+    }
+
+    .fa fa-bars {
+        display: none;
+    }
+}
+
+h1 {
+    font-family: "Shadows Into Light", serif;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.main-content p {
+    font-family: "Permanent Marker", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+@media (max-width: 500px) {
+    .logo {
+        margin-left: 40px;
+    }
+
+    #l1 {
+        align-items: start;
+    }
+}
+
+header {
+    position: fixed;
+}
